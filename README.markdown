@@ -1,3 +1,34 @@
+# node-jasmine-jquery
+
+To be used with
+
+  - [jasmine-node](https://github.com/mhevery/jasmine-node)
+
+## How to use
+
+__Folder structure:__
+    
+    spec
+       | test.spec.coffee
+
+### test.spec.coffee
+
+    $ = require 'jasmine-jquery'
+    
+    describe 'Jasmine-Jquery', ->
+
+      it 'should work', ->
+        $el = $('<div class='sweet'>Hello jQuery</div>')
+
+        expect($el).toBe('div')  # Passes
+        expect($el).toHaveClass('sweet')  # Passes
+        expect($el).not.toExist()  # Fails
+
+
+__Run Command:__  
+    
+    jasmine-node --coffee --verbose spec
+
 # jasmine-jquery
 
 jasmine-jquery provides two extensions for [Jasmine](http://pivotal.github.com/jasmine/) JavaScript Testing Framework:
