@@ -29,6 +29,17 @@ __Run Command:__
     
     jasmine-node --coffee --verbose spec
 
+## Installation
+
+    npm -d install jasmine-jquery
+
+__Or to get the latest__
+
+    git clone git://github.com/dkastner/node-jasmine-jquery.git
+    cd node-jasmine-jquery
+    npm -d install
+
+
 # jasmine-jquery
 
 jasmine-jquery provides two extensions for [Jasmine](http://pivotal.github.com/jasmine/) JavaScript Testing Framework:
