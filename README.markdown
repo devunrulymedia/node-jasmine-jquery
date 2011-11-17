@@ -35,8 +35,8 @@ __Run Command:__
 
 __Or to get the latest__
 
-    git clone git://github.com/dkastner/node-jasmine-jquery.git
-    cd node-jasmine-jquery
+    git clone git://github.com/dkastner/node-jasmine-jquery.git jasmine-jquery
+    cd jasmine-jquery
     npm -d install
 
 
